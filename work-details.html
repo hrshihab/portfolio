@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forensic Data Management System - Habibur Rahman Shihab</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/aos.css" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- logo -->
+  <link rel="icon" type="image/png" href="./assets/images/Shihab/logo/favicon.png">
+  <link rel="shortcut icon" href="./assets/images/Shihab/logo/favicon.png" type="image/png">
+</head>
+
+<body>
+  <main class="main-aboutpage">
+    <!-- Header -->
+    <header class="header-area">
+      <div class="container">
+        <div class="gx-row d-flex align-items-center justify-content-between">
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/Shihab/logo/logo.png" alt="Logo" />
+          </a>
+
+          <nav class="navbar">
+            <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="works.html">Works</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="./cv.html" class="theme-btn">My Resume</a>
+          </nav>
+
+          <a href="./cv.html" class="theme-btn">My Resume</a>
+
+          <div class="show-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Project Details -->
+    <section class="project-details-wrap">
+      <div class="container">
+        <div class="project-details-img" data-aos="zoom-in">
+          <img src="./assets/images/projects/forensic/image.png" alt="Forensic Data Management System" />
+        </div>
+
+        <div class="project-infos-wrap shadow-box d-flex align-items-start" data-aos="zoom-in">
+          <img src="./assets/images/icon2.png" alt="Icon" />
+          <div class="project-details-info">
+            <h3>OVERVIEW</h3>
+            <p>
+              The Forensic Data Management System is a secure, offline, web-based medico-legal application designed to digitally manage forensic and medical examination records within Dhaka Medical College. The system replaces traditional paper-based workflows and physical registers with a controlled, auditable, and tamper-resistant digital system.
+            </p>
+            <p>
+              The system is deployed entirely offline inside the DMC forensic department and operates exclusively within a secured LAN environment, ensuring compliance with medico-legal confidentiality and data protection requirements.
+            </p>
+            <p>
+              This government-grade platform handles Post-Mortem Examination Records, Medical Examination Records, Consent Forms, Refusal Forms, and Age Determination Examination Records with comprehensive audit trails and role-based access control.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-24">
+          <div class="col-md-6" data-aos="zoom-in">
+            <div class="project-details-2-img">
+              <img src="./assets/images/projects/project-1/project-banner-1.jpg" alt="System Architecture" />
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="zoom-in">
+            <div class="project-details-3-img">
+              <img src="./assets/images/projects/project-1/project-banner-1.jpg" alt="Security Features" />
+            </div>
+          </div>
+        </div>
+
+        <div class="project-about-2 shadow-box d-flex align-items-start mt-24" data-aos="zoom-in">
+          <div class="left-details">
+            <img src="./assets/images/icon2.png" alt="Icon" />
+            <ul>
+              <li>
+                <p>CLIENT</p>
+                <h4>Dhaka Medical College (DMC)</h4>
+              </li>
+              <li>
+                <p>DEPARTMENT</p>
+                <h4>Forensic Medicine & Toxicology</h4>
+              </li>
+              <li>
+                <p>PROJECT TYPE</p>
+                <h4>Government, Medico-Legal</h4>
+              </li>
+              <li>
+                <p>DEPLOYMENT</p>
+                <h4>Offline Secure System</h4>
+              </li>
+            </ul>
+          </div>
+          <div class="right-details flex-1">
+            <h3>TECHNICAL ARCHITECTURE</h3>
+            <p>
+              <strong>Frontend:</strong> Next.js 15.3.1, React 19.0.0, TypeScript 5.x<br>
+              <strong>Backend:</strong> ASP.NET Core 8.0 (Web API), Entity Framework Core 9.0.7<br>
+              <strong>Database:</strong> Microsoft SQL Server (RDBMS)<br>
+              <strong>Security:</strong> JWT Bearer Authentication, Role-Based Access Control (RBAC)
+            </p>
+            <p>
+              The system architecture consists of three layers: Client Layer (secure workstations accessing via standard web browsers), Application Layer (business logic, workflow validation, authorization enforcement), and Database Layer (centralized local database storing forensic records, user accounts, logs, and metadata).
+            </p>
+            <p>
+              All components are hosted within DMC's secured forensic infrastructure, ensuring complete offline operation with no internet dependency. The system features immutable approved records, read-only enforcement after submission, comprehensive audit logging, and automated scheduled database backups.
+            </p>
+          </div>
+        </div>
+
+        <a href="./works.html" class="big-btn shadow-box d-block text-center">
+          Back to Projects
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-area">
+      <div class="container">
+        <div class="footer-content text-center">
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/Shihab/logo/logo.png" alt="Logo" />
+          </a>
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <p class="copyright">
+            &copy; All rights reserved by <span>Habibur Rahman Shihab</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./assets/js/jquery-3.6.4.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
