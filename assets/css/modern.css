@@ -2998,3 +2998,10 @@ html.js:not(.reveal-ready) [data-reveal] {
 
 .hero__portrait, .portrait, .profile-card__avatar, .cv-sidebar__avatar { box-shadow: none; background: transparent; }
 .hero__portrait::before { display:none; }
+
+/* about cover banner */
+.cover-banner { padding-block: 0 clamp(32px,5vw,64px); }
+.cover-banner__frame { margin:0; overflow:hidden; border:1px solid var(--line-strong); border-radius: var(--radius-lg); aspect-ratio: 8/3; }
+.cover-banner__frame img { width:100%; height:100%; object-fit:cover; object-position:30% 40%; display:block; }
+@media (max-width:640px){ .cover-banner__frame{ aspect-ratio: 4/3; } }
+
