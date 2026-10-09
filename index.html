@@ -3,288 +3,359 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Habibur Rahman Shihab - AI & LLM Systems Portfolio</title>
+  <meta name="description" content="Habibur Rahman Shihab — AI & LLM Systems Engineer building full-stack and AI-powered products." />
+  <meta name="theme-color" content="#09090a" />
+  <link rel="icon" type="image/png" href="./assets/images/Shihab/logo/favicon.png" />
+  <link rel="shortcut icon" href="./assets/images/Shihab/logo/favicon.png" type="image/png" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
-
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/aos.css" />
-
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="icon" type="image/png" href="./assets/images/Shihab/logo/favicon.png">
-  <link rel="shortcut icon" href="./assets/images/Shihab/logo/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/modern.css" />
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="./assets/js/modern.js" defer></script>
 </head>
 
-<body>
-  <main class="main-homepage">
-    <!-- Header -->
-    <header class="header-area">
-      <div class="container">
-        <div class="gx-row d-flex align-items-center justify-content-between">
-          <a href="./index.html" class="logo">
-            <img src="./assets/images/Shihab/logo/logo.png" alt="Logo" />
-          </a>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-          <nav class="navbar">
-            <ul class="menu">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="works.html">Works</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <a href="./cv.html" class="theme-btn">My Resume</a>
-          </nav>
+  <!-- Header -->
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a href="./index.html" class="brand">
+        <img src="./assets/images/Shihab/logo/logo.png" alt="Shihab — Home" width="875" height="230" />
+      </a>
 
-          <a href="./cv.html" class="theme-btn">My Resume</a>
-
-          <div class="show-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="index.html" aria-current="page"><span class="site-nav__num">01</span>Home</a></li>
+          <li><a class="site-nav__link" href="about.html"><span class="site-nav__num">02</span>About</a></li>
+          <li><a class="site-nav__link" href="works.html"><span class="site-nav__num">03</span>Works</a></li>
+          <li><a class="site-nav__link" href="credentials.html"><span class="site-nav__num">04</span>Credentials</a></li>
+          <li><a class="site-nav__link" href="contact.html"><span class="site-nav__num">05</span>Contact</a></li>
+        </ul>
+        <div class="site-nav__footer">
+          <a href="./cv.html" class="btn btn--primary">My Resume <svg class="icon icon--diag" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          <a href="mailto:hrshihab10@gmail.com" class="label">hrshihab10@gmail.com</a>
         </div>
+      </nav>
+
+      <div class="site-header__actions">
+        <a href="./cv.html" class="btn btn--primary btn--sm site-header__cta">My Resume <svg class="icon icon--diag" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu" data-nav-toggle>
+          <span></span><span></span>
+        </button>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- About -->
-    <section class="about-area">
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6" data-aos="zoom-in">
-            <div class="about-me-box shadow-box">
-              <a class="overlay-link" href="./about.html"></a>
-              <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-              <div class="img-box">
-                <img src="./assets/images/Shihab/profile/me1.jpg" alt="About Me" />
-              </div>
-              <div class="infos">
-                <h4>SOFTWARE ENGINEER</h4>
-                <h1>Habibur Rahman Shihab</h1>
-                <p>AI & LLM Systems Engineer | Full-Stack & AI Product Engineering</p>
-                <a href="#" class="about-btn">
-                  <img src="./assets/images/icon.svg" alt="Button" />
-                </a>
-              </div>
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="label label--dot" data-reveal>Software Engineer · Dhaka, Bangladesh</span>
+
+            <h1 class="display hero__title">
+              <span class="line"><span style="--i: 0">Habibur</span></span>
+              <span class="line"><span style="--i: 1">Rahman</span></span>
+              <span class="line"><span style="--i: 2"><em>Shihab</em></span></span>
+            </h1>
+
+            <p class="hero__sub" data-reveal>AI &amp; LLM Systems Engineer | Full-Stack &amp; AI Product Engineering</p>
+
+            <div class="hero__actions" data-reveal>
+              <a href="./works.html" class="btn btn--primary">View projects <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a href="./about.html" class="btn btn--ghost">About me</a>
             </div>
           </div>
 
-          <div class="col-md-6">
-            <div class="about-credentials-wrap">
-              <div data-aos="zoom-in">
-                <div class="banner shadow-box">
-                  <div class="marquee">
-                    <div>
-                      <span>LATEST WORK AND <b>FEATURED</b>
-                        <img src="./assets/images/star1.svg" alt="Star" />
-                        Forensic Data Management System <b> Government Medico-Legal Platform</b>
-                        <img src="./assets/images/star1.svg" alt="Star" />
-                        ByteCode AI Assistant <b> LLM-Powered Coding Assistant</b>
-                        <img src="./assets/images/star1.svg" alt="Star" />
-                        Luminedge <b> IELTS Mock Test Platform</b>
-                        <img src="./assets/images/star1.svg" alt="Star" />
-                        ByteFlow <b> Employee Management System</b>
-                        <img src="./assets/images/star1.svg" alt="Star" />
-                        Başakinv Ventures <b> Global VC Corporate Website</b>
-                        <img src="./assets/images/star1.svg" alt="Star" />
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- More About -->
-              <div class="gx-row d-flex gap-24">
-                <div data-aos="zoom-in">
-                  <div class="about-crenditials-box info-box shadow-box h-full">
-                    <a class="overlay-link" href="./credentials.html"></a>
-                    <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-                    <img src="./assets/images/Shihab/logo/signature.png" alt="Sign" class="sign-img" />
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="infos">
-                        <h4>more about me</h4>
-                        <h1>Credentials</h1>
-                      </div>
-
-                      <a href="./credentials.html" class="about-btn">
-                        <img src="./assets/images/icon.svg" alt="Button" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <!-- More About Ends -->
-
-                <!-- Project -->
-                <div data-aos="zoom-in">
-                  <div class="about-project-box info-box shadow-box h-full">
-                    <a class="overlay-link" href="./works.html"></a>
-                    <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-                    <img src="./assets/images/project-banner.png" alt="My Works" />
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="infos">
-                        <h4>SHOWCASE</h4>
-                        <h1>Projects</h1>
-                      </div>
-
-                      <a href="#" class="about-btn">
-                        <img src="./assets/images/icon.svg" alt="Button" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="hero__visual" data-reveal="scale">
+            <a href="./about.html" class="hero__portrait" aria-label="About Habibur Rahman Shihab">
+              <img src="./assets/images/Shihab/profile/me1.jpg" alt="Portrait of Habibur Rahman Shihab" width="960" height="1280" fetchpriority="high" />
+              <span class="hero__badge label">AI &amp; LLM Systems</span>
+              <span class="hero__caption">
+                <span class="hero__caption-text">
+                  <span class="label">Currently at</span>
+                  <strong>ByteCode Limited</strong>
+                </span>
+                <img class="hero__signature" src="./assets/images/Shihab/logo/signature.png" alt="" width="875" height="448" />
+              </span>
+            </a>
           </div>
         </div>
-        <!-- Project Ends -->
-        <!-- Blog -->
-        <div hidden class="row mt-24">
-          <div class="col-md-12">
-            <div class="blog-service-profile-wrap d-flex gap-24">
-              <div data-aos="zoom-in">
-                <div class="about-blog-box info-box shadow-box h-full">
-                  <a href="./blog.html" class="overlay-link"></a>
-                  <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-                  <img src="./assets/images/gfonts.png" alt="GFonts" />
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="infos">
-                      <h4>Blog</h4>
-                      <h1>GFonts</h1>
-                    </div>
 
-                    <a href="./blog.html" class="about-btn">
-                      <img src="./assets/images/icon.svg" alt="Button" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div data-aos="zoom-in" class="flex-1">
-                <div class="about-services-box info-box shadow-box h-full">
-                  <a href="./service.html" class="overlay-link"></a>
-                  <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-                  <div class="icon-boxes">
-                    <i class="iconoir-camera"></i>
-                    <i class="iconoir-design-pencil"></i>
-                    <i class="iconoir-color-filter"></i>
-                    <i class="iconoir-dev-mode-phone"></i>
-                  </div>
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="infos">
-                      <h4>specialization</h4>
-                      <h1>Services Offering</h1>
-                    </div>
-
-                    <a href="./service.html" class="about-btn">
-                      <img src="./assets/images/icon.svg" alt="Button" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div data-aos="zoom-in">
-                <div class="about-profile-box info-box shadow-box h-full">
-                  <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-                  <div class="inner-profile-icons shadow-box">
-                    <a href="https://github.com/hrshihab" target="_blank">
-                      <i class="iconoir-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/hrshihab" target="_blank">
-                      <i class="iconoir-linkedin"></i>
-                    </a>
-                    <a href="https://www.facebook.com/hrshihab2016/" target="_blank">
-                      <i class="circum--facebook"></i>
-                    </a>
-                  </div>
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="infos">
-                      <h4>Stay with me</h4>
-                      <h1>Profiles</h1>
-                    </div>
-
-                    <a href="./contact.html" class="about-btn">
-                      <img src="./assets/images/icon.svg" alt="Button" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <dl class="stats" data-reveal>
+          <div class="stat">
+            <dt class="stat__label">Years Experience</dt>
+            <dd class="stat__value" data-count="3.5" data-decimals="1">3.5</dd>
           </div>
-        </div>
-        <!-- Blog Ends -->
-        <!-- Experience -->
-        <div class="row mt-24">
-          <div class="col-md-6" data-aos="zoom-in">
-            <div class="about-client-box info-box shadow-box">
-              <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-              <div class="clients d-flex align-items-start gap-24 justify-content-center">
-                <div class="client-item">
-                  <h1>3.5</h1>
-                  <p>Years <br />Experience</p>
-                </div>
-
-                <div class="client-item">
-                  <h1>+10</h1>
-                  <p>CLIENTS <br />WORLDWIDE</p>
-                </div>
-
-                <div class="client-item">
-                  <h1>+20</h1>
-                  <p>Total <br />Projects</p>
-                </div>
-              </div>
-            </div>
+          <div class="stat">
+            <dt class="stat__label">Clients Worldwide</dt>
+            <dd class="stat__value" data-count="10" data-prefix="+">+10</dd>
           </div>
-
-
-          <!-- Work Together -->
-          <div class="col-md-6" data-aos="zoom-in">
-            <div class="about-contact-box info-box shadow-box">
-              <a class="overlay-link" href="./contact.html"></a>
-              <img src="./assets/images/bg1.png" alt="BG" class="bg-img" />
-              <img src="./assets/images/icon2.png" alt="Icon" class="star-icon" />
-              <h1>Let's <br />work <span>together.</span></h1>
-              <a href="#" class="about-btn">
-                <img src="./assets/images/icon.svg" alt="Button" />
-              </a>
-            </div>
+          <div class="stat">
+            <dt class="stat__label">Total Projects</dt>
+            <dd class="stat__value" data-count="20" data-prefix="+">+20</dd>
           </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Skills ticker -->
+    <div class="marquee" data-marquee aria-label="Skills">
+      <div class="marquee__track">
+        <ul class="marquee__group">
+          <li class="marquee__item">JavaScript / TypeScript</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">Python</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">React.js / Next.js</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">Node.js / Express</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">ASP.NET Core</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">LLMs &amp; RAG</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">MongoDB / PostgreSQL</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">Flutter</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">Docker / Git</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+          <li class="marquee__item">C / C++</li>
+          <li class="marquee__sep" aria-hidden="true"><svg class="icon icon--fill" viewBox="0 0 24 24"><path d="M12 2c.5 5.2 2.8 7.5 10 10-7.2 2.5-9.5 4.8-10 10-.5-5.2-2.8-7.5-10-10 7.2-2.5 9.5-4.8 10-10Z"/></svg></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 01 / Expertise -->
+    <section class="section" id="expertise">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="label"><span class="label__num">01</span>Expertise</span>
+          <div class="section-head__main">
+            <h2 class="section-title">What I <em>do</em></h2>
+            <p class="lead">My work spans enterprise software, AI-powered automation, misinformation detection, and sustainable aquaponics systems, with a focus on reasoning, explainability, and real-world impact.</p>
+          </div>
+        </header>
+
+        <div class="services">
+          <article class="card service-card" data-reveal>
+            <div class="service-card__top">
+              <span class="icon-tile"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></span>
+              <span class="label">01</span>
+            </div>
+            <h3>Full-Stack Development</h3>
+            <p>Building enterprise-level software solutions with React, Next.js, Node.js, ASP.NET, and modern web technologies</p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <div class="service-card__top">
+              <span class="icon-tile"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg></span>
+              <span class="label">02</span>
+            </div>
+            <h3>AI &amp; LLM Systems</h3>
+            <p>Developing custom fine-tuned LLMs, RAG systems, and AI-powered automation tools for business intelligence</p>
+          </article>
+
+          <article class="card service-card" data-reveal>
+            <div class="service-card__top">
+              <span class="icon-tile"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2v7.5a2 2 0 0 1-.2.9L4.7 20.6a1 1 0 0 0 .9 1.4h12.8a1 1 0 0 0 .9-1.4l-5.1-10.2a2 2 0 0 1-.2-.9V2"/><path d="M8.5 2h7M7 16h10"/></svg></span>
+              <span class="label">03</span>
+            </div>
+            <h3>Research &amp; Engineering</h3>
+            <p>Conducting applied research in multilingual NLP, misinformation detection, and intelligent reasoning systems</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer-area">
+    <!-- 02 / Latest work -->
+    <section class="section" id="work">
       <div class="container">
-        <div class="footer-content text-center">
-          <a href="./index.html" class="logo">
-            <img src="./assets/images/Shihab/logo/logo.png" alt="Logo" />
+        <header class="section-head" data-reveal>
+          <span class="label"><span class="label__num">02</span>Latest work</span>
+          <div class="section-head__main">
+            <h2 class="section-title">Latest &amp; <em>featured</em> work</h2>
+            <a class="link-arrow" href="./works.html">View all projects <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </header>
+
+        <ol class="work-list">
+          <li data-reveal>
+            <a class="work-row" href="./work-details.html">
+              <span class="work-row__num">01</span>
+              <span class="work-row__body">
+                <span class="work-row__title">Forensic Data Management System</span>
+                <span class="work-row__meta">Government Medico-Legal Platform</span>
+              </span>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              <span class="work-row__thumb"><img src="./assets/images/projects/forensic/image.png" alt="" loading="lazy" /></span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="work-row" href="./works.html">
+              <span class="work-row__num">02</span>
+              <span class="work-row__body">
+                <span class="work-row__title">ByteCode AI Assistant</span>
+                <span class="work-row__meta">LLM-Powered Coding Assistant</span>
+              </span>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              <span class="work-row__thumb"><img src="./assets/images/projects/bytecodeAi/image.png" alt="" loading="lazy" /></span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="work-row" href="./works.html">
+              <span class="work-row__num">03</span>
+              <span class="work-row__body">
+                <span class="work-row__title">Luminedge</span>
+                <span class="work-row__meta">IELTS Mock Test Platform</span>
+              </span>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              <span class="work-row__thumb"><img src="./assets/images/projects/luminedge/image.png" alt="" loading="lazy" /></span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="work-row" href="./works.html">
+              <span class="work-row__num">04</span>
+              <span class="work-row__body">
+                <span class="work-row__title">ByteFlow</span>
+                <span class="work-row__meta">Employee Management System</span>
+              </span>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              <span class="work-row__thumb"><img src="./assets/images/projects/byteflow/byteflow.jpg" alt="" loading="lazy" /></span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="work-row" href="./works.html">
+              <span class="work-row__num">05</span>
+              <span class="work-row__body">
+                <span class="work-row__title">Başakinv Ventures</span>
+                <span class="work-row__meta">Global VC Corporate Website</span>
+              </span>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              <span class="work-row__thumb"><img src="./assets/images/projects/basakinv/image.png" alt="" loading="lazy" /></span>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 03 / Explore -->
+    <section class="section" id="explore">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="label"><span class="label__num">03</span>Explore</span>
+          <div class="section-head__main">
+            <h2 class="section-title">Get to know <em>me</em></h2>
+          </div>
+        </header>
+
+        <div class="bento">
+          <a class="card card--link bento-card bento-card--tall" href="./about.html" data-reveal>
+            <div class="bento-card__media">
+              <img src="./assets/images/Shihab/profile/me2.jpg" alt="Habibur Rahman Shihab" loading="lazy" />
+            </div>
+            <div class="bento-card__foot">
+              <div>
+                <span class="label">Self-summary</span>
+                <h3 class="bento-card__title">About me</h3>
+              </div>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </div>
           </a>
-          <ul class="footer-menu">
+
+          <a class="card card--link bento-card" href="./credentials.html" data-reveal>
+            <div class="bento-card__media bento-card__media--contain">
+              <img src="./assets/images/Shihab/logo/signature.png" alt="Shihab signature" loading="lazy" />
+            </div>
+            <div class="bento-card__foot">
+              <div>
+                <span class="label">More about me</span>
+                <h3 class="bento-card__title">Credentials</h3>
+              </div>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </div>
+          </a>
+
+          <a class="card card--link bento-card" href="./works.html" data-reveal>
+            <div class="bento-card__media bento-card__media--contain">
+              <img src="./assets/images/project-banner.png" alt="My Works" loading="lazy" />
+            </div>
+            <div class="bento-card__foot">
+              <div>
+                <span class="label">Showcase</span>
+                <h3 class="bento-card__title">Projects</h3>
+              </div>
+              <span class="arrow-btn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <section class="cta-band" aria-labelledby="cta-title">
+        <span class="label label--dot" data-reveal>Let's talk</span>
+        <h2 class="cta-band__title" id="cta-title" data-reveal>Let's work <em>together.</em></h2>
+        <p class="cta-band__text" data-reveal>Have a project in mind, a role to fill, or an idea worth building with AI? I'd love to hear about it.</p>
+        <div class="cta-band__actions" data-reveal>
+          <a href="./contact.html" class="btn btn--primary">Get in touch <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="mailto:hrshihab10@gmail.com" class="btn btn--ghost">hrshihab10@gmail.com</a>
+        </div>
+      </section>
+
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="./index.html" class="brand"><img src="./assets/images/Shihab/logo/logo.png" alt="Shihab — Home" width="875" height="230" loading="lazy" /></a>
+          <p>Software engineer building AI &amp; LLM systems and full-stack products, with a focus on reasoning, explainability and real-world impact.</p>
+        </div>
+        <div class="footer-col">
+          <h2 class="label">Navigate</h2>
+          <ul class="footer-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="works.html">Works</a></li>
+            <li><a href="credentials.html">Credentials</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cv.html">Resume</a></li>
           </ul>
-          <p class="copyright">
-            &copy; All rights reserved by <span>Habibur Rahman Shihab</span>
-          </p>
+        </div>
+        <div class="footer-col">
+          <h2 class="label">Connect</h2>
+          <ul class="footer-links">
+            <li><a href="https://github.com/hrshihab" target="_blank" rel="noopener">GitHub <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/hrshihab" target="_blank" rel="noopener">LinkedIn <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+            <li><a href="https://www.facebook.com/hrshihab2016/" target="_blank" rel="noopener">Facebook <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2 class="label">Contact</h2>
+          <ul class="footer-links">
+            <li><a href="mailto:hrshihab10@gmail.com">hrshihab10@gmail.com</a></li>
+            <li><a href="tel:+8801316944878">+880 1316-944878</a></li>
+            <li><span>Uttara, Dhaka, Bangladesh</span></li>
+          </ul>
         </div>
       </div>
-    </footer>
-  </main>
 
-  <script src="./assets/js/jquery-3.6.4.js"></script>
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/aos.js"></script>
-  <script src="./assets/js/main.js"></script>
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2026</span> All rights reserved by <span class="footer-bottom__name">Habibur Rahman Shihab</span></p>
+        <a href="#top" class="to-top">Back to top <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-mark" aria-hidden="true">Shihab</div>
+  </footer>
 </body>
 
 </html>
