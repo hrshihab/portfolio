@@ -2975,3 +2975,26 @@ html.js:not(.reveal-ready) [data-reveal] {
 .brand__name { font-family: var(--font-serif); font-size: 1.5rem; letter-spacing: 0.01em; line-height: 1; }
 .brand img.brand__avatar { height: 44px; width: 44px; }
 .hero__portrait img, .about-portrait img { object-fit: cover; }
+
+/* round photos: show the full circle, no crop */
+.hero__portrait, .portrait, .profile-card__avatar, .cv-sidebar__avatar {
+  aspect-ratio: 1; border-radius: 50%; border: 0; background: #0a0a0a; box-shadow: var(--shadow-lg);
+}
+.hero__portrait { max-width: 520px; margin-inline: auto; width: 100%; }
+.hero__portrait > img, .portrait img, .profile-card__avatar img, .cv-sidebar__avatar img {
+  object-fit: cover; object-position: center; scale: 1;
+}
+.hero__portrait:hover > img { scale: 1.03; }
+.hero__portrait::after { display: none; }
+.hero__badge { bottom: 6%; left: 50%; translate: -50% 0; right: auto; top: auto; white-space: nowrap; }
+.cv-sidebar__avatar { width: 84px; height: 84px; }
+.bento-card__media img[src*="cafe-wide"] { object-position: 30% 40%; }
+.hero__portrait { overflow: visible; }
+.hero__portrait > img { border-radius: 50%; }
+.hero__caption { position: static; display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 22px; padding: 0; background: none; border: 0; }
+.hero__caption-text { text-align: center; }
+.hero__signature { max-height: 44px; width: auto; }
+.hero__badge { bottom: auto; top: 6%; }
+
+.hero__portrait, .portrait, .profile-card__avatar, .cv-sidebar__avatar { box-shadow: none; background: transparent; }
+.hero__portrait::before { display:none; }
