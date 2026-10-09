@@ -2968,3 +2968,10 @@ html.js:not(.reveal-ready) [data-reveal] {
     background: none;
   }
 }
+
+/* brand avatar */
+.brand { display: inline-flex; align-items: center; gap: 0.7rem; }
+.brand__avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; box-shadow: 0 0 0 1px rgba(255,255,255,0.25); }
+.brand__name { font-family: var(--font-serif); font-size: 1.5rem; letter-spacing: 0.01em; line-height: 1; }
+.brand img.brand__avatar { height: 44px; width: 44px; }
+.hero__portrait img, .about-portrait img { object-fit: cover; }
